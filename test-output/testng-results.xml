@@ -1,17 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-21T21:32:48 CST" name="Default suite" finished-at="2023-02-21T21:33:09 CST" duration-ms="21165">
+  <suite started-at="2023-03-01T21:12:38 CST" name="MySuite" finished-at="2023-03-01T21:13:14 CST" duration-ms="35826">
     <groups>
     </groups>
-    <test started-at="2023-02-21T21:32:48 CST" name="Default test" finished-at="2023-02-21T21:33:09 CST" duration-ms="21165">
+    <test started-at="2023-03-01T21:12:38 CST" name="MyTestResult" finished-at="2023-03-01T21:13:14 CST" duration-ms="35826">
+      <class name="testng.TestFAQ_testng">
+        <test-method signature="add()[pri:0, instance:testng.TestFAQ_testng@29215f06]" started-at="2023-03-01T21:12:58 CST" name="add" finished-at="2023-03-01T21:12:58 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add -->
+        <test-method signature="sub()[pri:0, instance:testng.TestFAQ_testng@29215f06]" started-at="2023-03-01T21:12:58 CST" name="sub" finished-at="2023-03-01T21:12:58 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sub -->
+      </class> <!-- testng.TestFAQ_testng -->
       <class name="testng.ClgWeekLive">
-        <test-method signature="f()[pri:0, instance:testng.ClgWeekLive@36916eb0]" started-at="2023-02-21T21:32:48 CST" name="f" finished-at="2023-02-21T21:33:09 CST" duration-ms="21129" status="PASS">
+        <test-method signature="f()[pri:0, instance:testng.ClgWeekLive@71a8adcf]" started-at="2023-03-01T21:12:38 CST" name="f" finished-at="2023-03-01T21:12:58 CST" duration-ms="20164" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
       </class> <!-- testng.ClgWeekLive -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="testng.TestSample1">
+        <test-method signature="addNum()[pri:0, instance:testng.TestSample1@4efac082]" started-at="2023-03-01T21:13:14 CST" name="addNum" finished-at="2023-03-01T21:13:14 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNum -->
+        <test-method signature="findLargeNumber()[pri:0, instance:testng.TestSample1@4efac082]" started-at="2023-03-01T21:13:14 CST" name="findLargeNumber" finished-at="2023-03-01T21:13:14 CST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findLargeNumber -->
+        <test-method signature="mulNum()[pri:0, instance:testng.TestSample1@4efac082]" started-at="2023-03-01T21:13:14 CST" name="mulNum" finished-at="2023-03-01T21:13:14 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mulNum -->
+        <test-method signature="subNum()[pri:0, instance:testng.TestSample1@4efac082]" started-at="2023-03-01T21:13:14 CST" name="subNum" finished-at="2023-03-01T21:13:14 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subNum -->
+      </class> <!-- testng.TestSample1 -->
+      <class name="testng.AlertHandle">
+        <test-method signature="f()[pri:0, instance:testng.AlertHandle@59505b48]" started-at="2023-03-01T21:12:58 CST" name="f" finished-at="2023-03-01T21:13:14 CST" duration-ms="15619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- testng.AlertHandle -->
+    </test> <!-- MyTestResult -->
+  </suite> <!-- MySuite -->
 </testng-results>
