@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testng.AssertionsInTestNG">
+      <class name="testng.CrossBrowserTesting">
         <methods>
+          <include name="browserLaunch"/>
           <include name="f"/>
         </methods>
-      </class> <!-- testng.AssertionsInTestNG -->
+      </class> <!-- testng.CrossBrowserTesting -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

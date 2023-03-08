@@ -1,17 +1,129 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-02T21:30:33 CST" name="Default suite" finished-at="2023-03-02T21:30:42 CST" duration-ms="8802">
+  <suite started-at="2023-03-07T21:22:03 CST" name="CBT_Suite" finished-at="2023-03-07T21:23:21 CST" duration-ms="78005">
     <groups>
     </groups>
-    <test started-at="2023-03-02T21:30:33 CST" name="Default test" finished-at="2023-03-02T21:30:42 CST" duration-ms="8802">
-      <class name="testng.TakeScreenshotSample">
-        <test-method signature="f()[pri:0, instance:testng.TakeScreenshotSample@36916eb0]" started-at="2023-03-02T21:30:33 CST" name="f" finished-at="2023-03-02T21:30:42 CST" duration-ms="8762" status="PASS">
+    <test started-at="2023-03-07T21:22:03 CST" name="chromeTestResults" finished-at="2023-03-07T21:22:26 CST" duration-ms="23586">
+      <class name="testng.CrossBrowserTesting">
+        <test-method is-config="true" signature="browserLaunch(java.lang.String)[pri:0, instance:testng.CrossBrowserTesting@5677323c]" started-at="2023-03-07T21:22:03 CST" name="browserLaunch" finished-at="2023-03-07T21:22:05 CST" duration-ms="2122" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="f()[pri:0, instance:testng.CrossBrowserTesting@5677323c]" started-at="2023-03-07T21:22:05 CST" name="f" finished-at="2023-03-07T21:22:06 CST" duration-ms="1152" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-      </class> <!-- testng.TakeScreenshotSample -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- testng.CrossBrowserTesting -->
+      <class name="testng.ClgWeekLive">
+        <test-method is-config="true" signature="browser(java.lang.String)[pri:0, instance:testng.ClgWeekLive@4b45a2f5]" started-at="2023-03-07T21:22:06 CST" name="browser" finished-at="2023-03-07T21:22:07 CST" duration-ms="1036" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method signature="f()[pri:0, instance:testng.ClgWeekLive@4b45a2f5]" started-at="2023-03-07T21:22:07 CST" name="f" finished-at="2023-03-07T21:22:26 CST" duration-ms="19044" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testng.ClgWeekLive@4b45a2f5]" started-at="2023-03-07T21:22:26 CST" name="closeBrowser" finished-at="2023-03-07T21:22:26 CST" duration-ms="202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testng.ClgWeekLive -->
+    </test> <!-- chromeTestResults -->
+    <test started-at="2023-03-07T21:22:26 CST" name="edgeTestResults" finished-at="2023-03-07T21:22:52 CST" duration-ms="25967">
+      <class name="testng.CrossBrowserTesting">
+        <test-method is-config="true" signature="browserLaunch(java.lang.String)[pri:0, instance:testng.CrossBrowserTesting@248e319b]" started-at="2023-03-07T21:22:26 CST" name="browserLaunch" finished-at="2023-03-07T21:22:29 CST" duration-ms="2591" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="f()[pri:0, instance:testng.CrossBrowserTesting@248e319b]" started-at="2023-03-07T21:22:29 CST" name="f" finished-at="2023-03-07T21:22:30 CST" duration-ms="1135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- testng.CrossBrowserTesting -->
+      <class name="testng.ClgWeekLive">
+        <test-method is-config="true" signature="browser(java.lang.String)[pri:0, instance:testng.ClgWeekLive@5d0bf09b]" started-at="2023-03-07T21:22:30 CST" name="browser" finished-at="2023-03-07T21:22:33 CST" duration-ms="2741" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method signature="f()[pri:0, instance:testng.ClgWeekLive@5d0bf09b]" started-at="2023-03-07T21:22:33 CST" name="f" finished-at="2023-03-07T21:22:52 CST" duration-ms="19247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testng.ClgWeekLive@5d0bf09b]" started-at="2023-03-07T21:22:52 CST" name="closeBrowser" finished-at="2023-03-07T21:22:52 CST" duration-ms="245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testng.ClgWeekLive -->
+    </test> <!-- edgeTestResults -->
+    <test started-at="2023-03-07T21:22:52 CST" name="firefoxTestResults" finished-at="2023-03-07T21:23:21 CST" duration-ms="28426">
+      <class name="testng.CrossBrowserTesting">
+        <test-method is-config="true" signature="browserLaunch(java.lang.String)[pri:0, instance:testng.CrossBrowserTesting@543295b0]" started-at="2023-03-07T21:22:52 CST" name="browserLaunch" finished-at="2023-03-07T21:22:55 CST" duration-ms="2464" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="f()[pri:0, instance:testng.CrossBrowserTesting@543295b0]" started-at="2023-03-07T21:22:55 CST" name="f" finished-at="2023-03-07T21:22:57 CST" duration-ms="2174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- testng.CrossBrowserTesting -->
+      <class name="testng.ClgWeekLive">
+        <test-method is-config="true" signature="browser(java.lang.String)[pri:0, instance:testng.ClgWeekLive@54422e18]" started-at="2023-03-07T21:22:57 CST" name="browser" finished-at="2023-03-07T21:22:59 CST" duration-ms="2654" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method signature="f()[pri:0, instance:testng.ClgWeekLive@54422e18]" started-at="2023-03-07T21:22:59 CST" name="f" finished-at="2023-03-07T21:23:20 CST" duration-ms="20219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testng.ClgWeekLive@54422e18]" started-at="2023-03-07T21:23:20 CST" name="closeBrowser" finished-at="2023-03-07T21:23:21 CST" duration-ms="911" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testng.ClgWeekLive -->
+    </test> <!-- firefoxTestResults -->
+  </suite> <!-- CBT_Suite -->
 </testng-results>
